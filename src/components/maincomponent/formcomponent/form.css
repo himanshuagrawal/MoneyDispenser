@@ -1,0 +1,51 @@
+.form{
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    width: 45%;
+}
+
+.form .heading{
+    text-align: center;
+    font-size: 40px;
+}
+
+.form form{
+    padding: 30px;
+}
+
+.form .label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form .input{
+    display: block;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 30px;
+    font-size: 20px;
+    width: 94%;
+}
+
+.form .button{
+    display: block;
+    padding: 20px;
+    background-color: blue;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    color: white;
+}
+
+.form .button:hover{
+    cursor: pointer;
+}
+
+@media (max-width:800px){
+    .form{
+        width: 90%;
+    }
+}

@@ -1,0 +1,13 @@
+.header{
+    background-color: blueviolet;
+    height: 200px;
+    width: 100%;
+}
+
+.header .heading{
+    margin: 0px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    color: white;
+}
